@@ -1,0 +1,24 @@
+import numpy as np
+print("Array bidimensional iniciado a zeros")
+n_zeros=np.zeros(shape=(2,4),dtype=int)
+print(n_zeros)
+
+print("Array unidimensional iniciado a zeros")
+n_zeros=np.zeros(shape=(3))
+print(n_zeros)
+
+print("Array bidimensional iniciado a uns")
+n_ones=np.ones(shape=(3,2),dtype=int)
+print(n_ones)
+
+print("Arrat bidimensional iniciado a uns")
+n_ones=np.ones(shape=(4))
+print(n_ones)
+
+print("Array bidimensional iniciado a uns")
+n_empty=np.empty(shape=(2,2),dtype=int)
+print(n_empty)
+
+print("Array unidimensional não iniciado")
+n_empty=np.empty(shape=(2))
+print(n_empty) #output são valores que já estavam na memoria dessas posições

@@ -1,0 +1,36 @@
+import numpy as np
+array_1d=np.arange(1,11)
+print(array_1d)
+
+soma=array_1d.sum()
+media=array_1d.mean()
+minimo=array_1d.min()
+maximo=array_1d.max()
+print("soma",soma)
+print("media",media)
+print("minimo",minimo)
+print("maximo",maximo)
+
+import numpy as np
+array_zeros=np.zeros(5) #Array de 5 zeros
+array_ones=np.ones(5)  #Array de 5 uns
+start, end, step=5,16,2
+array_sequence=np.arange(start,end,step)
+print(array_zeros)
+print(array_ones)
+print(array_sequence)
+
+array4=np.arange(10,21) #Array de 10 a 20
+print(array4)
+
+elemento_5=array4[5]
+print(elemento_5)
+
+fatia=array4[2:7] #Elemento do índice 2 aos 6
+print(fatia)
+
+array5=np.arange(1,10)  #Array de 1 a 9
+print(array5)
+
+array_3x3=array5.reshape(3,3) #Redimensionar para 3x3
+print(array_3x3)
