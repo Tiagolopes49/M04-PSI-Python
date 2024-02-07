@@ -1,0 +1,77 @@
+a = "Hello, World!"
+print(len(a))
+
+a = "Hello, World!"
+print(a.upper())
+
+a = "Hello, World!"
+print(a.lower())
+
+a = "Hello"
+b = "World"
+c = a + b
+print(c)
+
+age = 36
+txt = "My name is John, and I am {}"
+print(txt.format(age))
+
+txt = "Inverter texto"[::-1]
+print(txt) # otxet retrevnI
+
+#1 e #2
+cidades = []
+for i in range(3):
+    cidade = input(f"Insira a cidade {i + 1}: ")
+    cidades.append(cidade)
+cidades.sort()
+print(len(cidades))
+print(cidades)
+print(cidades[1])
+
+#3
+cidades = []
+for i in range(7):
+    cidade = input(f"Insira a cidade {i + 1}: ")
+    cidades.append(cidade)
+cidades.sort()
+print(len(cidades))
+print(cidades)
+print(cidades[2:5])
+
+#4
+cidades = []
+for i in range(7):
+    cidade = input(f"Insira a cidade {i + 1}: ")
+    cidades.append(cidade)
+cidades.sort()
+print(len(cidades))
+print(cidades)
+if "Viseu" in cidades:
+    print("está na lista")
+else:
+    print("Não está")
+
+#5
+cores=["amarelo","azul","laranja"]
+cores[1]="preto"
+print(cores)
+
+#6
+cores=["amarelo","azul","laranja"]
+cores.insert(1,"vermelho")
+print(cores)
+
+#7
+cores_quentes=["amarelo","vermelho","laranja"]
+cores_frias=["violeta","azul","verde"]
+cores_quentes.extend(cores_frias)
+print(cores_quentes)
+
+#8
+cores_quentes=["amarelo","vermelho","laranja"]
+novas_lista_cores=[]
+for i in cores_quentes:
+    if "a" in i:
+        novas_lista_cores.append(i)
+print(novas_lista_cores)
